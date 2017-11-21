@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="15px" height="15px" viewBox="-0.119 -0.119 15 15" enable-background="new -0.119 -0.119 15 15"
+	 xml:space="preserve">
+<defs>
+</defs>
+<path display="none" fill="#BFBEBE" d="M7.381,0C4.135,0,1.504,2.631,1.504,5.877c0,4.885,5.877,8.885,5.877,8.885
+	s5.877-4.293,5.877-8.885C13.258,2.631,10.627,0,7.381,0z M7.381,8.678c-1.548,0-2.803-1.254-2.803-2.801s1.255-2.802,2.803-2.802
+	c1.547,0,2.801,1.255,2.801,2.802S8.928,8.678,7.381,8.678z"/>
+<path fill="#BEBEBE" d="M1.167,2.825l5.317,4.211c0.241,0.191,0.573,0.275,0.896,0.26c0.323,0.016,0.654-0.068,0.896-0.26
+	l5.316-4.211c0.427-0.335,0.33-0.611-0.211-0.611H7.381H1.38C0.839,2.214,0.742,2.49,1.167,2.825z"/>
+<path fill="#BEBEBE" d="M13.978,3.936L8.167,8.348C7.95,8.512,7.665,8.59,7.382,8.586C7.098,8.59,6.813,8.512,6.596,8.348
+	L0.784,3.936C0.353,3.609,0,3.785,0,4.326v7.237c0,0.543,0.443,0.984,0.984,0.984H7.38h6.397c0.541,0,0.984-0.441,0.984-0.984V4.326
+	C14.762,3.785,14.409,3.609,13.978,3.936z"/>
+</svg>
