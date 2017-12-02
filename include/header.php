@@ -40,7 +40,7 @@
       <div class="hinfo">
         <ul>
           <li class="hloc">Gajeva 5, Krapina</li>
-          <li class="htel"><a data-rel="external" href="tel:+38549300223">049 300 223</a> <?php echo _ILI;?> <a data-rel="external" href="tel:+38549300225">049 300 225</a></li>
+          <li class="htel"><a data-rel="external" href="tel:+38549300223">049 300 223</a> ili <a data-rel="external" href="tel:+38549300225">049 300 225</a></li>
           <li class="hmail"><a href="mailto:filartdoo@gmail.com">filartdoo@gmail.com</a></li>
         </ul>
       </div><!-- end .hinfo -->
@@ -97,19 +97,21 @@
 
   <div class="row dizajn-tisak animatedParent animateOnce">
     <div class="w5 dizajn animated fadeInLeft">
-      <div class="image" style="background:url('../lib/plugins/thumb.php?src=../images/content-images/dizajn1.jpg&w=1000&h=635&q=80&zc=1');"></div>
-      <div class="hover">
-        <h2 class="dttitle">Dizajn</h2>
-        <a href="dizajn.php" class="vmore">Pročitajte više</a>
-      </div><!-- end .hover -->
+      <a href="dizajn.php">
+        <div class="image" style="background:url('../lib/plugins/thumb.php?src=../images/content-images/dizajn1.jpg&w=1000&h=635&q=80&zc=1');"></div>
+        <div class="hover">
+          <h2 class="dttitle">Dizajn</h2>
+        </div><!-- end .hover -->
+      </a>
     </div><!-- end .dizajn -->
     <div class="w5 tisak animated fadeInRight">
-      <div class="image" style="background:url('../lib/plugins/thumb.php?src=../images/content-images/tisak1.jpg&w=1000&h=635&q=80&zc=1');"></div>
-      <div class="hover">
-        <h2 class="dttitle">Tisak</h2>
-        <a href="tisak.php" class="vmore">Pročitajte više</a>
-      </div><!-- end .hover -->
-    </div><!-- end .tisak -->
+      <a href="tisak.php">
+        <div class="image" style="background:url('../lib/plugins/thumb.php?src=../images/content-images/tisak1.jpg&w=1000&h=635&q=80&zc=1');"></div>
+        <div class="hover">
+          <h2 class="dttitle">Tisak</h2>
+        </div><!-- end .hover -->
+      </div><!-- end .tisak -->
+    </a>
   </div><!-- end .dizajn-tisak -->
 
 <?php } ?>

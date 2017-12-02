@@ -19,7 +19,7 @@
 		      	<li>Naziv projekta</li>
 		    </ul>
 		</div><!-- end of .bread-crumbs -->
-		<div class="content fw ptb90">
+		<div class="content fw ptb90 prodet">
 			<div class="w4 pr25">
 				<div class="si fw">
 					<h2>Naziv projekta:</h2>

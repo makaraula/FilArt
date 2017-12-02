@@ -70,11 +70,11 @@
 						<h2>Dokumenti</h2>
 					</div><!-- end .subtitle -->
 					<ul>
-						<li><a href="../images/content-images/test-dokument.pdf" target="_blank"></a>Dokument 1</li>
-						<li><a href="../images/content-images/test-dokument.pdf" target="_blank"></a>Dokument 2</li>
-						<li><a href="../images/content-images/test-dokument.pdf" target="_blank"></a>Dokument 3</li>
-						<li><a href="../images/content-images/test-dokument.pdf" target="_blank"></a>Dokument 4</li>
-						<li><a href="../images/content-images/test-dokument.pdf" target="_blank"></a>Dokument 5</li>
+						<li><a href="../images/content-images/test-dokument.pdf" target="_blank">Dokument 1</a></li>
+						<li><a href="../images/content-images/test-dokument.pdf" target="_blank">Dokument 2</a></li>
+						<li><a href="../images/content-images/test-dokument.pdf" target="_blank">Dokument 3</a></li>
+						<li><a href="../images/content-images/test-dokument.pdf" target="_blank">Dokument 4</a></li>
+						<li><a href="../images/content-images/test-dokument.pdf" target="_blank">Dokument 5</a></li>
 					</ul>
 				</div><!-- end .docs-list -->
 				<div class="col col_6 single-video pl25">

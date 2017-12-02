@@ -6,6 +6,9 @@ body{
   color:#525252;
   background:#231f20;
 }
+body.fix{
+  overflow:hidden;
+}
 p, ul li{
   line-height: 30px;
 }
@@ -380,7 +383,7 @@ button:focus {
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0
+  bottom: 0;
   z-index: 100;
   width: 100%;
   height: 100%;
@@ -389,6 +392,8 @@ button:focus {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
+  overflow-y:auto;
+  -webkit-overflow-scrolling:touch;
 }
 .main-menu{
   position: absolute;
@@ -542,8 +547,8 @@ button:focus {
 .absolute{
   position: absolute;
   top: 0;
-  left: 9.9%;
-  width: 100%;
+  left: 21.5%;
+  width: auto;
 }
 .tagline, .hinfo {
   margin: -45px 0 0 0;
@@ -651,17 +656,17 @@ button:focus {
 .dttitle{
   margin: 0;
   position: absolute;
-  font-size: 80px;
-  line-height: 80px;
+  font-size: 200px;
+  line-height: 200px;
   color: #fff;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: uppercase;
-  top: 50%;
+  bottom: -33px;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+  transform: translate(-50%);
   z-index: 2;
 }
 .vmore{
@@ -937,6 +942,7 @@ button:focus {
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 90%;
 }
 .image-holder .buttons .fa {
   -webkit-border-radius: 50%;
@@ -1347,25 +1353,865 @@ button:focus {
   filter: grayscale(0);
   opacity: 1;
 }
-
-
-/*123*/
-/* POČETAK RESPONSIVE */
-@media screen and (-webkit-min-device-pixel-ratio:0) {}
-@media only screen and (max-width: 1680px) {}
-@media only screen and (max-width: 1600px) {}
-@media only screen and (max-width: 1440px) {}
-@media only screen and (max-width: 1366px) {}
-@media only screen and (max-width: 1360px) {}
-@media only screen and (max-width: 1280px) {}
-@media only screen and (max-width: 1220px) {}
-@media only screen and (max-width: 1024px) {}
-@media only screen and (max-width: 980px) {}
-@media only screen and (max-width: 900px) {}
-@media only screen and (max-width: 800px) {}
-@media only screen and (max-width: 768px) {}
-@media only screen and (max-width: 640px) {}
-@media only screen and (max-width: 620px) {}
-@media only screen and (max-width: 600px) {}
-@media only screen and (max-width: 480px) {}
-@media only screen and (max-width: 360px) {}
+.bbox {
+    background: #00AEEF;
+    color: #fff;
+    border-top: 1px solid #fff;
+}
+.bbox p {
+    margin: 0;
+}
+.mobt {
+    display: none;
+}
+@media only screen and (max-width: 1680px) {
+    .dizajn-tisak .w5 {
+        height: 560px;
+    }
+    .hlogo img {
+        max-width: 170px;
+    }
+    .hlogo {
+        width: 190px;
+        height: 190px;
+    }
+    .absolute {
+        left: 22.5%;
+    }
+    .projekt-title h3,.image-holder:hover .buttons h3 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .projekt-ikone img {
+        max-width: 45px;
+    }
+    .image-holder .buttons .fa {
+        width: 45px;
+        height: 45px;
+        background-size: 45px !important;
+    }
+    .image-holder {
+        height: 385px;
+    }
+}
+@media only screen and (max-width: 1600px) {
+    .dizajn-tisak .w5 {
+        height: 535px;
+    }
+    .menu-holder {
+        top: 17px;
+        right: 15px;
+    }
+    .odabir-jezika {
+        top: 15px;
+        right: 65px;
+    }
+    .dttitle {
+        font-size: 185px;
+        line-height: 185px;
+        bottom: -31px;
+    }
+    .projekt-title h3,.image-holder:hover .buttons h3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .projekt-title h3 {
+        margin: 8px 0 0 0;
+    }
+    .projekt-ikone img {
+        max-width: 40px;
+    }
+    .image-holder .buttons .fa {
+        width: 40px;
+        height: 40px;
+        background-size: 40px !important;
+    }
+    .biggest {
+        font-size: 325px;
+        line-height: 325px;
+        bottom: -53px;
+    }
+}
+@media only screen and (max-width: 1440px) {
+    .dizajn-tisak .w5 {
+        height: 480px;
+    }
+    .hlogo img {
+        max-width: 150px;
+    }
+    .hlogo {
+        width: 170px;
+        height: 170px;
+    }
+    .absolute {
+        left: 25.2%;
+    }
+    .header {
+        padding: 0 0 85px 0;
+    }
+    .hinfo,.lang-list {
+        font-size: 13px;
+    }
+    .tagline {
+        font-size: 16px;
+    }
+    .main-menu > li > a {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .main-menu li a {
+        padding: 6px 0;
+    }
+    .dttitle {
+        font-size: 170px;
+        line-height: 170px;
+    }
+    .ptb90 {
+        padding: 75px 0;
+    }
+    .projekti {
+        padding-top: 75px;
+    }
+    .projekti .twl {
+        margin-bottom: 70px;
+    }
+    .fancy {
+        font-size: 38px;
+        line-height: 38px;
+    }
+    .projekt-title h3,.image-holder:hover .buttons h3 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .projekt-title h3 {
+        margin: 7px 0 0 0;
+    }
+    .projekt-ikone img,.si .projekt-ikone img {
+        max-width: 35px;
+    }
+    .image-holder .buttons .fa {
+        width: 35px;
+        height: 35px;
+        background-size: 35px !important;
+    }
+    .biggest {
+        font-size: 260px;
+        line-height: 260px;
+        bottom: -43px;
+    }
+}
+@media only screen and (max-width: 1366px) {
+    .dizajn-tisak .w5 {
+        height: 455px;
+    }
+    .hlogo img {
+        max-width: 140px;
+    }
+    .hlogo {
+        width: 160px;
+        height: 160px;
+    }
+    .absolute {
+        left: 25.5%;
+    }
+    .tagline,.hinfo {
+        margin: -35px 0 0 0;
+    }
+    .onama p {
+        font-size: 16px;
+    }
+    .biggest {
+        font-size: 230px;
+        line-height: 230px;
+        bottom: -38px;
+    }
+}
+@media only screen and (max-width: 1360px) {
+    .header.shrink .absolute {
+        left: 29.3%;
+    }
+    .header.shrink .hlogo {
+        margin: 0 10px;
+    }
+}
+@media only screen and (max-width: 1315px) {
+    .acenter,.wrapper {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .absolute {
+        position: static;
+        top: auto;
+        left: auto;
+        text-align: left;
+        margin-left: 140px;
+    }
+    .header {
+        padding: 0;
+    }
+    .tagline,.hinfo,.header.shrink .tagline,.header.shrink .hinfo {
+        margin: 15px 0;
+    }
+    .hinfo {
+        margin-left: 30px;
+    }
+    .hlogo img {
+        max-width: 100px;
+    }
+    .hlogo {
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 0;
+        width: 120px;
+        height: 120px;
+    }
+    .header.shrink .hlogo img {
+        max-width: 50px;
+    }
+    .header.shrink .hlogo {
+        width: 60px;
+        height: 60px;
+        left: 10px;
+    }
+    .header.shrink {
+        padding: 0;
+        height: 60px;
+    }
+    .header.shrink .absolute {
+        left: 0;
+        margin-left: 75px;
+    }
+    .header.shrink .hinfo {
+        margin-left: 30px;
+    }
+    .header.shrink .menu-holder {
+        top: 17px;
+    }
+    .header.shrink .odabir-jezika {
+        top: 16px;
+    }
+    .dttitle {
+        font-size: 150px;
+        line-height: 150px;
+        bottom: -26px;
+    }
+    .pt75 {
+        padding-top: 50px;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    .dizajn-tisak .w5 {
+        height: 425px;
+    }
+    .ptb90 {
+        padding: 60px 0;
+    }
+    .foursteps,.projekti {
+        padding-top: 60px;
+    }
+    .projekti .twl {
+        margin-bottom: 55px;
+    }
+    .step img {
+        max-width: 75px;
+    }
+    .step h3 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .foursteps .blueline::before {
+        margin-right: 0;
+    }
+    .foursteps .blueline::after {
+        margin-left: 0;
+    }
+    .steps {
+        padding-left: 20px;
+    }
+    .fancy {
+        font-size: 34px;
+        line-height: 34px;
+    }
+    .fancy span::before,.fancy span::after {
+        width: 120px;
+    }
+    .border {
+        padding: 45px;
+    }
+}
+@media only screen and (max-width: 1220px) {
+    .dizajn-tisak .w5 {
+        height: 405px;
+    }
+    .dttitle {
+        font-size: 140px;
+        line-height: 140px;
+    }
+    .biggest {
+        font-size: 210px;
+        line-height: 210px;
+        bottom: -35px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .dizajn-tisak .w5 {
+        height: 340px;
+    }
+    .hinfo {
+        display: none;
+    }
+    .hlogo img {
+        max-width: 90px;
+    }
+    .hlogo {
+        width: 110px;
+        height: 110px;
+    }
+    .tagline,.header.shrink .tagline {
+        font-size: 14px;
+    }
+    .tagline,.hinfo,.header.shrink .tagline {
+        margin: 17px 0;
+    }
+    .absolute {
+        margin-left: 120px;
+    }
+    .menu-holder {
+        top: 15px;
+    }
+    .odabir-jezika {
+        top: 13px;
+    }
+    body,.onama p,.htxt p {
+        font-size: 14px;
+    }
+    p,ul li,.htxt p {
+        line-height: 24px;
+    }
+    .content h1 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .content .si h1 {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 0
+    }
+    .si h2,.project-info h2,.htxt h2 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .subtitle h2 {
+        padding: 7px 10px 12px 10px;
+        font-size: 20px;
+    }
+    .tpk-txt h2 {
+        font-size: 20px;
+        line-height: 24px
+    }
+    .main-menu li .sub-menu a {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .main-menu > li > a {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .dttitle {
+        font-size: 120px;
+        line-height: 120px;
+        bottom: -21px;
+    }
+    .foursteps .blueline {
+        width: 80%;
+    }
+    .foursteps .blueline::before,.foursteps .blueline::after {
+        top: 59%;
+        margin-top: 0;
+    }
+    .w25.step {
+        text-align: center;
+    }
+    .steps {
+        padding-left: 0;
+    }
+    .step h3,.step img {
+        display: block;
+        float: none;
+    }
+    .step img {
+        margin: 15px auto 0 auto;
+    }
+    .lfull,.lthree,.lsmall,.lbig {
+        width: 50%;
+    }
+    .layout2,.layout1,.layout3,.layout4 {
+        display: inline;
+        float: none;
+    }
+    .cp2 {
+        height: 240px;
+    }
+    .cutParagraf {
+        height: 120px;
+    }
+    .bmore,.gmore {
+        margin: 45px 0 0 0;
+    }
+    .bread-crumbs {
+        padding: 15px 0 15px 5px;
+    }
+    .bread-crumbs ul li {
+        font-size: 12px;
+        line-height: 14px;
+        margin-right: 15px;
+    }
+    .biggest {
+        font-size: 180px;
+        line-height: 180px;
+        bottom: -31px;
+    }
+    .ptb90 {
+        padding: 50px 0;
+    }
+    .projekti {
+        padding-top: 50px;
+    }
+    .projekti .twl {
+        margin-bottom: 45px;
+    }
+    .fholder {
+        border-top: 100px solid #373435;
+    }
+    .pt75 {
+        padding-top: 65px;
+    }
+}
+@media only screen and (max-width: 980px) {
+    .dizajn-tisak .w5 {
+        height: 325px;
+    }
+    .fancy {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .fancy span::before,.fancy span::after {
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 960px) {
+    .hbox,.w5.hbox {
+        width: 100%;
+        margin-left: 0;
+        padding: 40px 0;
+    }
+    .hbox .w25,.w5.hbox .w25 {
+        max-width: 160px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .dizajn-tisak .w5 {
+        width: 100%;
+    }
+    .dizajn-tisak .w5.tisak {
+        border-top: 1px solid #fff;
+    }
+    .dizajn-tisak .w5 {
+        padding-right: 0 !important;
+    }
+    .biggest {
+        font-size: 160px;
+        line-height: 160px;
+        bottom: -27px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .docs-list,.single-video,.kholder .col_6,.prodet .w4,.prodet .w6,.tpk .w4,.tpk .w6 {
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .single-video, .prodet .w6{
+      margin-top: 30px;
+    }
+    .gimg {
+        padding: 2px;
+    }
+    .border {
+        padding: 25px;
+        margin-top: 30px;
+    }
+    #map,.map,.map iframe {
+        height: 350px;
+    }
+    .si {
+        width: 50%;
+        padding-right: 25px;
+    }
+    .cp2 {
+        -webkit-line-clamp: inherit;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .bmore,.gmore {
+        margin: 35px 0 0 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .foursteps .blueline::before,.foursteps .blueline::after {
+        display: none;
+    }
+    .foursteps .blueline {
+        width: 100%;
+    }
+    .biggest {
+        font-size: 140px;
+        line-height: 140px;
+        bottom: -24px;
+    }
+}
+@media only screen and (max-width: 640px) and (orientation: landscape) {
+    .main-menu {
+        position: relative;
+        margin: 30px 0;
+        top: auto;
+        left: 0;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+@media only screen and (max-width: 640px) {
+    .hlogo img {
+        max-width: 70px;
+    }
+    .hlogo {
+        width: 90px;
+        height: 90px;
+    }
+    .tagline {
+        margin: 10px 0;
+    }
+    .absolute {
+        margin-left: 95px;
+    }
+    .menu-holder {
+        top: 9px;
+    }
+    .odabir-jezika {
+        top: 7px;
+    }
+    .main-menu > li > a {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .main-menu li a {
+        padding: 4px 0;
+    }
+    .step h3 {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .step img {
+        max-width: 65px;
+    }
+    .w25.step {
+        padding: 0 10px;
+    }
+    .fancy {
+        font-size: 26px;
+        line-height: 26px;
+    }
+    .fancy span::before,.fancy span::after {
+        width: 70px;
+    }
+    .lfull,.lthree,.lsmall,.lbig {
+        width: 100%;
+    }
+    .layout2,.layout1,.layout3,.layout4 {
+        display: block;
+        float: left;
+    }
+    .mb50 {
+        margin-bottom: 40px;
+    }
+    .mt50 {
+        margin-top: 40px;
+    }
+    .content h1 {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 30px;
+    }
+    .subtitle h2 {
+        padding: 7px 10px 10px 10px;
+        font-size: 18px;
+    }
+    .si h2,.project-info h2,.htxt h2 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .tpk-txt h2 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .cp2 {
+        margin-bottom: 20px;
+    }
+    .bmore,.gmore {
+        margin: 25px 0 0 0;
+    }
+    .w2.logotipi {
+        width: 25%;
+        padding: 3px;
+    }
+    .tpk-imgs .w33 {
+        padding: 3px;
+    }
+    .biggest {
+        font-size: 110px;
+        line-height: 110px;
+        bottom: -19px;
+    }
+    .pt75 {
+        padding-top: 60px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .gimg {
+        width: 50%;
+    }
+    .gimg:first-child {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 520px) {
+    .hlogo img {
+        max-width: 60px;
+    }
+    .hlogo {
+        width: 80px;
+        height: 80px;
+    }
+    .tagline {
+        font-size: 12px;
+        margin: 8px 0;
+    }
+    .lang-list {
+        font-size: 12px;
+    }
+    .menu-holder {
+        top: 7px;
+    }
+    .absolute {
+        margin-left: 80px;
+    }
+    .odabir-jezika {
+        right: 55px;
+    }
+    .image-holder {
+        height: 365px;
+    }
+    .pt75 {
+        padding-top: 55px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .tagline {
+        width: 100px;
+        line-height: 16px;
+    }
+    .hlogo {
+        top: 8px;
+    }
+    .menu-holder,.odabir-jezika {
+        top: 11px;
+    }
+    .dizajn-tisak .w5 {
+        height: 320px;
+    }
+    .dttitle {
+        font-size: 100px;
+        line-height: 100px;
+        bottom: -16px;
+    }
+    .biggest {
+        font-size: 90px;
+        line-height: 90px;
+    }
+    .w25.step {
+        width: 50%;
+        padding: 15px;
+    }
+    .image-holder {
+        height: 338px;
+    }
+    .projekt-info {
+        text-align: center;
+    }
+    .projekt-title,.projekt-ikone {
+        float: none;
+        display: inline-block;
+        width: 100%;
+    }
+    .projekt-title h3{
+      font-size: 14px;
+      line-height: 20px;
+    }
+    .projekt-ikone{
+      margin-top: 5px;
+    }
+    .copy {
+        float: none;
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+    .ftop {
+        padding: 35px 0;
+    }
+    .content h1 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .docs-list ul li {
+        padding: 10px 0 10px 45px;
+    }
+    .flogo img {
+        max-width: 100px;
+    }
+    .flogo {
+        margin-top: -82px;
+        width: 109px;
+        height: 109px;
+    }
+    .w2.logotipi {
+        width: 50%;
+    }
+    .si {
+        width: 100%;
+        padding-right: 0;
+    }
+    .hbox {
+        text-align: center;
+        padding: 20px 0;
+    }
+    .hbox .w25,.hbox .w75 {
+        width: 100%;
+        float: none;
+        padding: 0;
+    }
+    .hbox .w25 {
+        margin-bottom: 30px;
+    }
+    .cutParagraf {
+        overflow: hidden;
+        -webkit-line-clamp: inherit;
+        height: auto;
+    }
+    .bbox {
+        text-align: center;
+    }
+    .step img {
+        max-width: 75px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .dizajn-tisak .w5 {
+        height: 295px;
+    }
+    .dttitle {
+        font-size: 95px;
+        line-height: 95px;
+    }
+    .image-holder {
+        height: 280px;
+    }
+    .biggest {
+        display: none;
+    }
+    .mobt.biggest {
+        position: static;
+        display: block;
+        margin: 0;
+        bottom: auto;
+        left: auto;
+        -webkit-transform: translate(0);
+        -ms-transform: translate(0);
+        -o-transform: translate(0);
+        transform: translate(0);
+    }
+}
+@media only screen and (max-width: 360px) {
+    .dizajn-tisak .w5 {
+        height: 240px;
+    }
+    .dttitle {
+        font-size: 85px;
+        line-height: 85px;
+        bottom: -14px;
+    }
+    .mobt.biggest {
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .ptb90 {
+        padding: 30px 0;
+    }
+    .projekti,.foursteps {
+        padding-top: 30px;
+    }
+    .projekti .twl {
+        margin-bottom: 25px;
+    }
+    .fholder {
+        border-top: 80px solid #373435;
+    }
+    .fancy {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .fancy span::before,.fancy span::after {
+        width: 40px;
+    }
+    .image-holder {
+        height: 253px;
+    }
+    .mb50 {
+        margin-bottom: 30px;
+    }
+    .mt50 {
+        margin-top: 30px;
+    }
+    .content h1 {
+        margin-bottom: 25px;
+    }
+    .subtitle h2 {
+        padding: 5px 10px 8px 10px;
+        font-size: 16px;
+    }
+    .si h2,.project-info h2,.htxt h2 {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .tpk-txt h2 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    #map,.map,.map iframe {
+        height: 300px;
+    }
+    .border {
+        padding: 15px;
+        margin-top: 10px;
+    }
+    .pt75 {
+        padding-top: 40px;
+    }
+    .bread-crumbs {
+        padding: 15px 0 10px 5px;
+    }
+}

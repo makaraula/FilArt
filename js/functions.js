@@ -1,6 +1,6 @@
 /*ovdje se nalaze funcije za javascript/jquery*/
 
-$(document).ready(function() { 
+$(document).ready(function() {
 
 
     $("img.lazy").lazy({
@@ -12,6 +12,7 @@ $(document).ready(function() {
 
 	$('.nav-icon').click(function(){
 		$(this).toggleClass('open');
+    $('body').toggleClass('fix');
 		$('.izbornik').toggleClass('active');
 	});
 
@@ -40,13 +41,6 @@ $(document).ready(function() {
 	      }
 	    });
 	});
-		
-	$('.bxslider').bxSlider({
-		controls: false,
-		captions: false,
-		auto: false,
-		autoHover:true,
-		pager: false
-	});
-});
 
+
+});

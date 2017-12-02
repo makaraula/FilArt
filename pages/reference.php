@@ -21,140 +21,140 @@
 			<h1>Reference</h1>
 
 			<div class="fw">
-				<div class="w2 grayscale">
+				<div class="w2 grayscale logotipi">
 					<div class="refbox fw">
 						<a href="projekti.php">
 							<img class="lazy" data-src="../lib/plugins/thumb.php?src=../images/content-images/l1.png&w=360&h=360&q=80&zc=2" alt="">
 						</a>
 					</div>
 				</div><!-- end .w2 -->
-				<div class="w2 grayscale">
+				<div class="w2 grayscale logotipi">
 					<div class="refbox fw">
 						<a href="projekti.php">
 							<img class="lazy" data-src="../lib/plugins/thumb.php?src=../images/content-images/l2.png&w=360&h=360&q=80&zc=2" alt="">
 						</a>
 					</div>
 				</div><!-- end .w2 -->
-				<div class="w2 grayscale">
+				<div class="w2 grayscale logotipi">
 					<div class="refbox fw">
 						<a href="projekti.php">
 							<img class="lazy" data-src="../lib/plugins/thumb.php?src=../images/content-images/l3.png&w=360&h=360&q=80&zc=2" alt="">
 						</a>
 					</div>
 				</div><!-- end .w2 -->
-				<div class="w2 grayscale">
+				<div class="w2 grayscale logotipi">
 					<div class="refbox fw">
 						<a href="projekti.php">
 							<img class="lazy" data-src="../lib/plugins/thumb.php?src=../images/content-images/l4.png&w=360&h=360&q=80&zc=2" alt="">
 						</a>
 					</div>
 				</div><!-- end .w2 -->
-				<div class="w2 grayscale">
+				<div class="w2 grayscale logotipi">
 					<div class="refbox fw">
 						<a href="projekti.php">
 							<img class="lazy" data-src="../lib/plugins/thumb.php?src=../images/content-images/l5.png&w=360&h=360&q=80&zc=2" alt="">
 						</a>
 					</div>
 				</div><!-- end .w2 -->
-				<div class="w2 grayscale">
+				<div class="w2 grayscale logotipi">
 					<div class="refbox fw">
 						<a href="projekti.php">
 							<img class="lazy" data-src="../lib/plugins/thumb.php?src=../images/content-images/l6.png&w=360&h=360&q=80&zc=2" alt="">
 						</a>
 					</div>
 				</div><!-- end .w2 -->
-				<div class="w2 grayscale">
+				<div class="w2 grayscale logotipi">
 					<div class="refbox fw">
 						<a href="projekti.php">
 							<img class="lazy" data-src="../lib/plugins/thumb.php?src=../images/content-images/l7.png&w=360&h=360&q=80&zc=2" alt="">
 						</a>
 					</div>
 				</div><!-- end .w2 -->
-				<div class="w2 grayscale">
+				<div class="w2 grayscale logotipi">
 					<div class="refbox fw">
 						<a href="projekti.php">
 							<img class="lazy" data-src="../lib/plugins/thumb.php?src=../images/content-images/l8.png&w=360&h=360&q=80&zc=2" alt="">
 						</a>
 					</div>
 				</div><!-- end .w2 -->
-				<div class="w2 grayscale">
+				<div class="w2 grayscale logotipi">
 					<div class="refbox fw">
 						<a href="projekti.php">
 							<img class="lazy" data-src="../lib/plugins/thumb.php?src=../images/content-images/l9.png&w=360&h=360&q=80&zc=2" alt="">
 						</a>
 					</div>
 				</div><!-- end .w2 -->
-				<div class="w2 grayscale">
+				<div class="w2 grayscale logotipi">
 					<div class="refbox fw">
 						<a href="projekti.php">
 							<img class="lazy" data-src="../lib/plugins/thumb.php?src=../images/content-images/l10.png&w=360&h=360&q=80&zc=2" alt="">
 						</a>
 					</div>
 				</div><!-- end .w2 -->
-				<div class="w2 grayscale">
+				<div class="w2 grayscale logotipi">
 					<div class="refbox fw">
 						<a href="projekti.php">
 							<img class="lazy" data-src="../lib/plugins/thumb.php?src=../images/content-images/l1.png&w=360&h=360&q=80&zc=2" alt="">
 						</a>
 					</div>
 				</div><!-- end .w2 -->
-				<div class="w2 grayscale">
+				<div class="w2 grayscale logotipi">
 					<div class="refbox fw">
 						<a href="projekti.php">
 							<img class="lazy" data-src="../lib/plugins/thumb.php?src=../images/content-images/l2.png&w=360&h=360&q=80&zc=2" alt="">
 						</a>
 					</div>
 				</div><!-- end .w2 -->
-				<div class="w2 grayscale">
+				<div class="w2 grayscale logotipi">
 					<div class="refbox fw">
 						<a href="projekti.php">
 							<img class="lazy" data-src="../lib/plugins/thumb.php?src=../images/content-images/l3.png&w=360&h=360&q=80&zc=2" alt="">
 						</a>
 					</div>
 				</div><!-- end .w2 -->
-				<div class="w2 grayscale">
+				<div class="w2 grayscale logotipi">
 					<div class="refbox fw">
 						<a href="projekti.php">
 							<img class="lazy" data-src="../lib/plugins/thumb.php?src=../images/content-images/l4.png&w=360&h=360&q=80&zc=2" alt="">
 						</a>
 					</div>
 				</div><!-- end .w2 -->
-				<div class="w2 grayscale">
+				<div class="w2 grayscale logotipi">
 					<div class="refbox fw">
 						<a href="projekti.php">
 							<img class="lazy" data-src="../lib/plugins/thumb.php?src=../images/content-images/l5.png&w=360&h=360&q=80&zc=2" alt="">
 						</a>
 					</div>
 				</div><!-- end .w2 -->
-				<div class="w2 grayscale">
+				<div class="w2 grayscale logotipi">
 					<div class="refbox fw">
 						<a href="projekti.php">
 							<img class="lazy" data-src="../lib/plugins/thumb.php?src=../images/content-images/l6.png&w=360&h=360&q=80&zc=2" alt="">
 						</a>
 					</div>
 				</div><!-- end .w2 -->
-				<div class="w2 grayscale">
+				<div class="w2 grayscale logotipi">
 					<div class="refbox fw">
 						<a href="projekti.php">
 							<img class="lazy" data-src="../lib/plugins/thumb.php?src=../images/content-images/l7.png&w=360&h=360&q=80&zc=2" alt="">
 						</a>
 					</div>
 				</div><!-- end .w2 -->
-				<div class="w2 grayscale">
+				<div class="w2 grayscale logotipi">
 					<div class="refbox fw">
 						<a href="projekti.php">
 							<img class="lazy" data-src="../lib/plugins/thumb.php?src=../images/content-images/l8.png&w=360&h=360&q=80&zc=2" alt="">
 						</a>
 					</div>
 				</div><!-- end .w2 -->
-				<div class="w2 grayscale">
+				<div class="w2 grayscale logotipi">
 					<div class="refbox fw">
 						<a href="projekti.php">
 							<img class="lazy" data-src="../lib/plugins/thumb.php?src=../images/content-images/l9.png&w=360&h=360&q=80&zc=2" alt="">
 						</a>
 					</div>
 				</div><!-- end .w2 -->
-				<div class="w2 grayscale">
+				<div class="w2 grayscale logotipi">
 					<div class="refbox fw">
 						<a href="projekti.php">
 							<img class="lazy" data-src="../lib/plugins/thumb.php?src=../images/content-images/l10.png&w=360&h=360&q=80&zc=2" alt="">

@@ -56,7 +56,6 @@
               <input type="submit" class="btn send" name="posalji_upit" value="Pošaljite poruku" />
             </form>
 
-            <?php }#end else?>
           </div><!-- end #kontakt-forma -->
         </div><!-- end .col_6 -->
 
@@ -73,6 +72,9 @@
   </div><!-- end #map -->
 </div><!-- end .row -->
 
+
+<?php include '../include/footer.php';?>
+
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 <script type="text/javascript">
       google.maps.event.addDomListener(window, 'load', init);
@@ -88,7 +90,7 @@
           var marker = new google.maps.Marker({
               position: new google.maps.LatLng(46.163766,15.870982),
               map: map,
-              icon: 'images/pin.png',
+              icon: '../images/pin.png',
               title: 'F.I.L. Art d.o.o.'
           });
       }
